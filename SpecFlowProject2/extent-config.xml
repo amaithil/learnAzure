@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extentreports>
+    <configuration>
+        <!-- report theme -->
+        <!-- standard, dark -->
+        <theme>standard</theme>
+    
+        <!-- document encoding -->
+        <!-- defaults to UTF-8 -->
+        <encoding>UTF-8</encoding>
+        
+        <!-- protocol for script and stylesheets -->
+        <!-- defaults to https -->
+        <protocol>https</protocol>
+        
+        <!-- title of the document -->
+        <documentTitle>Spec Flow Test</documentTitle>
+        
+        <!-- report name - displayed at top-nav -->
+        <reportName>Automation Report</reportName>
+        
+        <!-- location of charts in the test view -->
+        <!-- top, bottom -->
+        <testViewChartLocation>bottom</testViewChartLocation>
+
+        <!-- when to take screenshots -->
+        <!-- screenshotOnlyOnPass, screenshotOnlyOnFail,screenshotOnlyOnBoth -->
+        <screenshotType>screenshotOnlyOnBoth</screenshotType>
+      
+        <!-- want to perform Remote execution -->
+        <!-- Yes, No -->
+        <RemoteExecution>Yes</RemoteExecution>
+      
+        <!-- custom javascript -->
+        <scripts>
+            <![CDATA[
+                $(document).ready(function() {
+                    
+                });
+            ]]>
+        </scripts>
+        
+        <!-- custom styles -->
+        <styles>
+            <![CDATA[
+            .card-body {display: grid; grid-template-columns: repeat(3, 1fr);grid-auto-rows:auto; grid-gap: 20px 15px; align-items: center;justify-content: start;} .r - img{ border: 2px solid}.badge - primary{color:#000;background-color:#badeef;} .d-flex{grid-column-start: 1;}
+            ]]>
+        </styles>
+    </configuration>
+</extentreports>
